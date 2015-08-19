@@ -1,0 +1,21 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "thoughtless-packer"
+    },
+    "live": {
+      "bucket": "",
+      "path": ""
+    }
+  },
+  "sheets": ["1RPM_WZtUuhDd1oWxOgPsEu44KjbTZdWdAs2iAAhH5qI"],
+  "title": "",
+  "description": "",
+  "url": "",
+  "slug": "",
+  "tags": [],
+  "image": "http://seattletimes.com/art/ui/fb_icon_large.jpg",
+  "production": false,
+  "embedded": false
+}

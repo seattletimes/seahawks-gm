@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <%= t.include("partials/_adHead.html") %>
+  </head>
+  <body ng-app="be-the-gm">
+
+    <main class="interactive" ng-controller="roster">
+      <section class="readout">
+        <div class="count" ng-class="{ excessive: selectedCount > maximumCount} ">
+          {{selectedCount}} players (max: {{maximumCount}})
+        </div>
+        <div class="cap" ng-class="{ excessive: selectedCost > maximumCost }">
+          ${{selectedCost | number}} (max: ${{maximumCost | number}})
+        </div>
+      </section>
+      <section class="groups">
+        <div class="position-group" ng-repeat="position in positions">
+          <h2>{{position.label}}</h2>
+          <ul class="players">
+            <li
+              class="player"
+              ng-repeat="player in position.players"
+              ng-click="togglePlayer(player)"
+              ng-class="{ selected: player.selected }"
+            >
+              <img ng-src="./assets/mugs/{{player.image}}">
+              <div class="name">{{player.first}} {{player.last}}</div>
+              <div class="exprerience">{{player.exp ? player.exp + " seasons" : "Rookie"}}</div>
+              <div class="cap">${{player.cap | number}}</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script>
+window.rosterData = <%= JSON.stringify(json.SeahawksRoster_roster) %>;
+    </script>
+
+    <script src="app.js"></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_adFoot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

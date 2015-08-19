@@ -1,0 +1,20 @@
+module.exports = {
+  LB: "Linebacker",
+  TE: "Tight end",
+  QB: "Quarterback",
+  DE: "Defensive end",
+  G: "Guard",
+  FS: "Free safety",
+  WR: "Wide receiver",
+  CB: "Cornerback",
+  T: "Tailback",
+  FB: "Fullback",
+  RB: "Running back",
+  LS: "Long snapper",
+  K: "Kicker",
+  DT: "Defensive tackle",
+  C: "Center",
+  SS: "Strong safety",
+  DB: "Defensive back",
+  P: "Punter"
+}

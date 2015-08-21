@@ -8,6 +8,11 @@
 @import "seattletimes";
 @import "flexbox";
 
+body {
+  margin: auto;
+  max-width: 800px;
+}
+
 main.interactive {
   font-family: @df-sans;
   font-size: 14px;
@@ -16,11 +21,31 @@ main.interactive {
 .readout {
   position: fixed;
   bottom: 0;
-  right: 0;
+  left: 0;
+  width: 100%;
   background: white;
-  font-size: 12px;
+  font-size: 17px;
   padding: 8px;
   box-shadow: 4px 4px 16px rgba(0, 0, 0, .3);
+  z-index: 9999;
+
+  .segment {
+    display: inline-block;
+    margin-right: 20px;
+
+    &.text {
+      font-weight: bold;
+    }
+
+    &.share {
+      float: right;
+
+      label {
+        background: white !important;
+        border: 1px solid @df-middle-gray !important;
+      }
+    }
+  }
 
   .excessive {
     color: @st-dark-red;
@@ -28,14 +53,13 @@ main.interactive {
 }
 
 section.groups {
-  .display-flex;
-  .flex-wrap(wrap);
 }
 
 .position-group {
   padding: 8px;
-  border: 1px solid @df-light-gray;
-  .flex(0 0 20%);
+  border-top: 1px solid @df-light-gray;
+  display: block;
+  clear: both;
 
   h2 {
     margin: 0;
@@ -49,17 +73,66 @@ section.groups {
 }
 
 .player {
-
   margin: 4px 0;
   background: white;
   border: 1px solid @df-middle-gray;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  float: left;
+  width: 240px;
+  margin-right: 4px;
+  .display-flex;
+  .justify-content(space-around);
 
-  img {
-    width: 100%;
+  .icons {
+    .flex(0 0 20px);
+
+    .unchecked { display: inline-block }
+    .checked { display: none }
   }
 
   &.selected {
-    font-weight: bold;
     background: @df-light-gray;
+
+    .icons {
+      .unchecked { display: none }
+      .checked { display: inline-block }
+    }
+  }
+
+  .popup {
+    display: none;
+    position: absolute;
+    bottom: 120%;
+    left: 0;
+    z-index: 9999;
+    background: white;
+    padding: 8px;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, .2);
+    .align-items(flex-start);
+    max-width: 100%;
+
+    img {
+      .flex(0 0 50%);
+    }
+
+    .stats {
+      .flex(1);
+      padding-left: 8px;
+      margin: 0;
+      list-style-type: none;
+    }
+  }
+
+  &:hover {
+    .popup {
+      .display-flex;
+    }
+  }
+
+  .name {
+    .flex(1);
   }
 }

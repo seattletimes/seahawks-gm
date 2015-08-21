@@ -13,7 +13,7 @@ var here = window.location.href;
 
 var s = new Share(".share", {
   ui: {
-    flyout: "bottom left"
+    flyout: "top left"
   },
   networks: {
     google_plus: {

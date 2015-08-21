@@ -5,21 +5,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <%= t.include("partials/_adHead.html") %>
   </head>
   <body ng-app="be-the-gm">
 
+    <h1>Hawks: Be the GM</h1>
+
+    <p>
+      On September 6th, the Seahawks will announce their final roster of 53 players. Who would you pick? Use our interactive below to choose your team &mdash; but be careful of the salary cap! We've gone ahead and selected positions where only one player is available to get you started.
+
     <main class="interactive" ng-controller="roster">
       <section class="readout">
-        <div class="count" ng-class="{ excessive: selectedCount > maximumCount} ">
+        <div class="text segment">
+          Total:
+        </div>
+        <div class="count segment" ng-class="{ excessive: selectedCount > maximumCount} ">
           {{selectedCount}} players (max: {{maximumCount}})
         </div>
-        <div class="cap" ng-class="{ excessive: selectedCost > maximumCost }">
+        <div class="cap segment" ng-class="{ excessive: selectedCost > maximumCost }">
           ${{selectedCost | number}} (max: ${{maximumCost | number}})
         </div>
+        <a class="share segment"></a>
       </section>
       <section class="groups">
-        <div class="position-group" ng-repeat="position in positions">
+        <div class="position-group" ng-repeat="position in positions" ng-class="{ large: position.players.length > 5 }">
           <h2>{{position.label}}</h2>
           <ul class="players">
             <li
@@ -28,10 +38,22 @@
               ng-click="togglePlayer(player)"
               ng-class="{ selected: player.selected }"
             >
-              <img ng-src="./assets/mugs/{{player.image}}">
+              <div class="icons">
+                <i class="fa fa-square unchecked"></i>
+                <i class="fa fa-check-square checked"></i>
+              </div>
               <div class="name">{{player.first}} {{player.last}}</div>
-              <div class="exprerience">{{player.exp ? player.exp + " seasons" : "Rookie"}}</div>
               <div class="cap">${{player.cap | number}}</div>
+
+              <div class="popup">
+                <img ng-src="./assets/mugs/{{player.image}}">
+                <ul class="stats">
+                  <li><b>{{player.feet}}-foot-{{player.inches}}</b>
+                  <li><b>{{player.weight}} lbs</b>
+                  <li>Exp: <b>{{player.exp ? player.exp + " seasons" : "Rookie"}}</b>
+                  <li>College: <b>{{player.college}}</b>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>

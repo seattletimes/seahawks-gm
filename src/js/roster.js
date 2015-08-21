@@ -9,14 +9,19 @@ raw.forEach(function(row) {
   byPosition[row.pos].push(row);
   row.image = row.last + "_" + row.first.replace(/\.$/, "") + ".jpg";
 });
+for (var key in byPosition) {
+  if (byPosition[key].length == 1) {
+    byPosition[key][0].selected = true;
+  }
+}
 
 var roster = function($scope) {
 
   $scope.players = raw;
-  $scope.positions = Object.keys(byPosition).map(k => ({ label: k, players: byPosition[k] }));
+  $scope.positions = Object.keys(byPosition).sort().map(k => ({ label: k, players: byPosition[k] }));
 
-  $scope.selectedCount = 0;
-  $scope.selectedCost = 0;
+  $scope.selectedCount = raw.filter(x => x.selected).length;
+  $scope.selectedCost = raw.reduce((n, x) => x.selected ? n + x.cap : n, 0);
 
   $scope.maximumCount = 53;
   $scope.maximumCost = 148257738;

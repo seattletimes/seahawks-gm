@@ -24,7 +24,7 @@ module.exports = {
         var compare, mask;
         if (index < 53) {
           compare = lower;
-          mask = Math.pow(2, index - 1);
+          mask = Math.pow(2, index);
         } else {
           compare = upper;
           mask = Math.pow(2, index - 53);

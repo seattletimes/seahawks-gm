@@ -1,23 +1,44 @@
-var saveToURL = function(data) {
-
-  var json = JSON.stringify(data);
-  var b64 = btoa(json);
-  window.history.replaceState({}, "", "?" + b64);
-};
 
 module.exports = {
-  set(data) {
-    saveToURL(data);
-    localStorage.setItem("seahawks-gm-2015", JSON.stringify(data));
+  save(roster) {
+    var upper = 0;
+    var lower = 0;
+    roster.forEach(function(player, index) {
+      if (player.selected) {
+        if (index < 53) {
+          lower += Math.pow(2, index);
+        } else {
+          upper += Math.pow(2, index - 53);
+        }
+      }
+    });
+    window.history.replaceState({}, "", `?${upper}:${lower}`);
+
+    localStorage.setItem("seahawks-gm-2015", roster.filter(p => p.selected).map(p => p.no));
   },
-  get() {
+  restore(roster) {
+    var indexed;
     if (window.location.search) {
-      var search = window.location.search.replace(/^\?/, "");
-      search = JSON.parse(atob(search));
-      return search || [];
+      var [upper, lower] = window.location.search.replace(/^\?/, "").split(":");
+      roster.forEach(function(player, index) {
+        var compare, mask;
+        if (index < 53) {
+          compare = lower;
+          mask = Math.pow(2, index - 1);
+        } else {
+          compare = upper;
+          mask = Math.pow(2, index - 53);
+        }
+        player.selected = compare & mask;
+      });
     } else {
+      //restore from the localStorage list
       var local = localStorage.getItem("seahawks-gm-2015");
-      return local ? JSON.parse(local) : [];
+      if (!local) return;
+      local = local.split(",").map(Number);
+      roster.forEach(function(player) {
+        player.selected = local.indexOf(player.no) > -1;
+      });
     }
   }
 }

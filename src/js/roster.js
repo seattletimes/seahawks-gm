@@ -3,21 +3,20 @@ var raw = window.rosterData;
 var labels = require("./labels");
 var memory = require("./memory");
 
-var saved = memory.get();
-
 var byPosition = {};
 raw.forEach(function(row) {
   row.pos = labels[row.pos];
   if (!byPosition[row.pos]) byPosition[row.pos] = [];
   byPosition[row.pos].push(row);
   row.image = row.last + "_" + row.first.replace(/\.$/, "") + ".jpg";
-  if (saved.indexOf(row.no) > -1) row.selected = true;
 });
 for (var key in byPosition) {
   if (byPosition[key].length == 1) {
     byPosition[key][0].selected = true;
   }
 }
+
+memory.restore(raw);
 
 var roster = function($scope) {
 
@@ -42,7 +41,7 @@ var roster = function($scope) {
     });
     $scope.selectedCount = count;
     $scope.selectedCost = cost;
-    memory.set(raw.filter(p => p.selected).map(p => p.no));
+    memory.save(raw);
 
   };
 

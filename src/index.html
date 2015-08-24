@@ -46,13 +46,17 @@
               <div class="cap">${{player.cap | number}}</div>
 
               <div class="popup">
-                <img ng-src="./assets/mugs/{{player.image}}">
-                <ul class="stats">
-                  <li><b>{{player.feet}}-foot-{{player.inches}}</b>
-                  <li><b>{{player.weight}} lbs</b>
-                  <li>Exp: <b>{{player.exp ? player.exp + " seasons" : "Rookie"}}</b>
-                  <li>College: <b>{{player.college}}</b>
-                </ul>
+                <div class="card">
+                  <img ng-src="./assets/mugs/{{player.image}}">
+                  <h1>#{{player.no}}<br>{{player.first}} {{player.last}}</h1>
+                </div>
+                <div class="stats">
+                  <ul class="block">
+                    <li>{{player.feet}}-foot-{{player.inches}}, {{player.weight}} lbs
+                    <li>{{player.exp ? player.exp + " seasons experience" : "Rookie"}}
+                    <li>Attended {{player.college}}
+                  </ul>
+                </div>
               </div>
             </li>
           </ul>

@@ -6,63 +6,77 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,700">
     <%= t.include("partials/_adHead.html") %>
   </head>
   <body ng-app="be-the-gm">
 
-    <h1>Hawks: Be the GM</h1>
+    <%= t.include("partials/_dfHeader.html") %>
 
-    <p>
-      On September 6th, the Seahawks will announce their final roster of 53 players. Who would you pick? Use our interactive below to choose your team &mdash; but be careful of the salary cap! We've gone ahead and selected positions where only one player is available to get you started.
+    <div class="everything">
 
-    <main class="interactive" ng-controller="roster">
-      <section class="readout">
-        <div class="text segment">
-          Total:
-        </div>
-        <div class="count segment" ng-class="{ excessive: selectedCount > maximumCount} ">
-          {{selectedCount}} players (max: {{maximumCount}})
-        </div>
-        <div class="cap segment" ng-class="{ excessive: selectedCost > maximumCost }">
-          ${{selectedCost | number}} (max: ${{maximumCost | number}})
-        </div>
-        <a class="share segment"></a>
-      </section>
-      <section class="groups">
-        <div class="position-group" ng-repeat="position in positions" ng-class="{ large: position.players.length > 5 }">
-          <h2>{{position.label}}</h2>
-          <ul class="players">
-            <li
-              class="player"
-              ng-repeat="player in position.players"
-              ng-click="togglePlayer(player)"
-              ng-class="{ selected: player.selected }"
-            >
-              <div class="icons">
-                <i class="fa fa-square unchecked"></i>
-                <i class="fa fa-check-square checked"></i>
-              </div>
-              <div class="name">#{{player.no}} - {{player.last}}</div>
-              <div class="cap">${{player.cap | number}}</div>
+      <div class="placeholder"></div>
 
-              <div class="popup">
-                <div class="card">
-                  <img ng-src="./assets/mugs/{{player.image}}">
-                  <h1>#{{player.no}}<br>{{player.first}} {{player.last}}</h1>
+      <h1>Hawks: Be the GM</h1>
+
+      <p>
+        On September 5th, the Seahawks will announce their final roster of 53 players. Who would you pick? Use our interactive below to choose your team &mdash; but be careful of the salary cap! We've gone ahead and selected positions where only one player is available to get you started.
+
+      <main class="interactive" ng-controller="roster">
+        <section class="readout">
+          <div class="text segment">
+            Total:
+          </div>
+          <div class="count segment" ng-class="{ excessive: selectedCount > maximumCount} ">
+            {{selectedCount}} players (max: {{maximumCount}})
+          </div>
+          <div class="cap segment" ng-class="{ excessive: selectedCost > maximumCost }">
+            ${{selectedCost | number}} (max: ${{maximumCost | number}})
+          </div>
+          <a class="share segment"></a>
+        </section>
+        <section class="groups">
+          <div class="position-group" ng-repeat="position in positions" ng-class="{ large: position.players.length > 5 }">
+            
+            <h2>{{position.label}}</h2>
+            
+            <ul class="players">
+              <li
+                class="player"
+                ng-repeat="player in position.players"
+                ng-click="togglePlayer(player)"
+                ng-class="{ selected: player.selected }"
+              >
+                <div class="icons">
+                  <i class="fa fa-square unchecked"></i>
+                  <i class="fa fa-check-square checked"></i>
                 </div>
-                <div class="stats">
-                  <ul class="block">
-                    <li>{{player.feet}}-foot-{{player.inches}}, {{player.weight}} lbs
-                    <li>{{player.exp ? player.exp + " seasons experience" : "Rookie"}}
-                    <li>Attended {{player.college}}
-                  </ul>
+                <div class="name">#{{player.no}} - {{player.last}}</div>
+                <div class="cap">${{player.cap | number}}</div>
+
+                <div class="popup">
+                  <div class="card">
+                    <img ng-src="./assets/mugs/{{player.image}}">
+                    <h1>#{{player.no}}<br>{{player.first}} {{player.last}}</h1>
+                  </div>
+                  <div class="stats">
+                    <ul class="block">
+                      <li> Born: {{player.birthdate}}
+                      <li> {{player.feet}}-foot-{{player.inches}}, {{player.weight}} lbs
+                      <li> Experience: {{player.exp ? player.exp + " seasons" : "Rookie"}}
+                      <li> Attended {{player.college}}
+                    </ul>
+                  </div>
                 </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
+
+              </li>
+            </ul>
+
+          </div>
+        </section>
+      </main>
+
+    </div>
 
     <script>
 window.rosterData = <%= JSON.stringify(json.SeahawksRoster_roster) %>;

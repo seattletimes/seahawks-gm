@@ -1,35 +1,29 @@
 
 module.exports = {
   save(roster) {
-    var upper = 0;
-    var lower = 0;
-    roster.forEach(function(player, index) {
+    var bytemasks = [0, 0, 0];
+    roster.forEach(function(player) {
       if (player.selected) {
-        if (index < 53) {
-          lower += Math.pow(2, index);
-        } else {
-          upper += Math.pow(2, index - 53);
-        }
+        var maskIndex = Math.floor(player.id / 32);
+        var bit = player.id % 32;
+        var flag = Math.pow(2, bit);
+        bytemasks[maskIndex] += flag;
       }
     });
-    window.history.replaceState({}, "", `?${upper}:${lower}`);
+    window.history.replaceState({}, "", "?" + bytemasks.join(":"));
 
     localStorage.setItem("seahawks-gm-2015", roster.filter(p => p.selected).map(p => p.no));
   },
   restore(roster) {
     var indexed;
     if (window.location.search) {
-      var [upper, lower] = window.location.search.replace(/^\?/, "").split(":");
-      roster.forEach(function(player, index) {
-        var compare, mask;
-        if (index < 53) {
-          compare = lower;
-          mask = Math.pow(2, index);
-        } else {
-          compare = upper;
-          mask = Math.pow(2, index - 53);
-        }
-        player.selected = compare & mask;
+      var bytemasks = window.location.search.replace(/^\?/, "").split(":").map(Number);
+      roster.forEach(function(player) {
+        var maskIndex = Math.floor(player.id / 32);
+        var mask = bytemasks[maskIndex];
+        var bit = player.id % 32;
+        var flag = Math.pow(2, bit);
+        player.selected = mask & flag;
       });
     } else {
       //restore from the localStorage list

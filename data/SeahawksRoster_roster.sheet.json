@@ -257,23 +257,6 @@
   {
     "id": 15,
     "title": 15,
-    "no": 8,
-    "name": "Crayton, Jeremy",
-    "last": "Crayton",
-    "first": "Jeremy",
-    "pos": "CB",
-    "status": "Active",
-    "feet": 6,
-    "inches": 1,
-    "weight": 190,
-    "birthdate": "11/27/1990",
-    "exp": 0,
-    "college": "S. Arkansas",
-    "cap": 435000
-  },
-  {
-    "id": 16,
-    "title": 16,
     "no": 5,
     "name": "Daniels, B.J.",
     "last": "Daniels",
@@ -289,8 +272,8 @@
     "cap": 510000
   },
   {
-    "id": 17,
-    "title": 17,
+    "id": 16,
+    "title": 16,
     "no": 73,
     "name": "Davis, Jesse",
     "last": "Davis",
@@ -306,8 +289,8 @@
     "cap": 437000
   },
   {
-    "id": 18,
-    "title": 18,
+    "id": 17,
+    "title": 17,
     "no": 95,
     "name": "Dobbs, Demarcus",
     "last": "Dobbs",
@@ -323,25 +306,8 @@
     "cap": 665000
   },
   {
-    "id": 19,
-    "title": 19,
-    "no": 79,
-    "name": "Gilliam, Garry",
-    "last": "Gilliam",
-    "first": "Garry",
-    "pos": "T",
-    "status": "Active",
-    "feet": 6,
-    "inches": 5,
-    "weight": 306,
-    "birthdate": "11/26/1990",
-    "exp": 2,
-    "college": "Penn State",
-    "cap": 514000
-  },
-  {
-    "id": 20,
-    "title": 20,
+    "id": 18,
+    "title": 18,
     "no": 63,
     "name": "Glowinski, Mark",
     "last": "Glowinski",
@@ -357,8 +323,8 @@
     "cap": 521422
   },
   {
-    "id": 21,
-    "title": 21,
+    "id": 19,
+    "title": 19,
     "no": 88,
     "name": "Graham, Jimmy",
     "last": "Graham",
@@ -374,8 +340,8 @@
     "cap": 8000000
   },
   {
-    "id": 22,
-    "title": 22,
+    "id": 20,
+    "title": 20,
     "no": 49,
     "name": "Gresham, Clint",
     "last": "Gresham",
@@ -391,8 +357,8 @@
     "cap": 845000
   },
   {
-    "id": 23,
-    "title": 23,
+    "id": 21,
+    "title": 21,
     "no": 59,
     "name": "Gwacham, Obum",
     "last": "Gwacham",
@@ -408,8 +374,8 @@
     "cap": 457621
   },
   {
-    "id": 24,
-    "title": 24,
+    "id": 22,
+    "title": 22,
     "no": 4,
     "name": "Hauschka, Steven",
     "last": "Hauschka",
@@ -425,8 +391,8 @@
     "cap": 3325000
   },
   {
-    "id": 25,
-    "title": 25,
+    "id": 23,
+    "title": 23,
     "no": 84,
     "name": "Helfet, Cooper",
     "last": "Helfet",
@@ -442,8 +408,8 @@
     "cap": 510000
   },
   {
-    "id": 26,
-    "title": 26,
+    "id": 24,
+    "title": 24,
     "no": 97,
     "name": "Hill, Jordan",
     "last": "Hill",
@@ -459,8 +425,8 @@
     "cap": 741035
   },
   {
-    "id": 27,
-    "title": 27,
+    "id": 25,
+    "title": 25,
     "no": 51,
     "name": "Irvin, Bruce",
     "last": "Irvin",
@@ -476,8 +442,8 @@
     "cap": 2895542
   },
   {
-    "id": 28,
-    "title": 28,
+    "id": 26,
+    "title": 26,
     "no": 7,
     "name": "Jackson, Tarvaris",
     "last": "Jackson",
@@ -493,8 +459,8 @@
     "cap": 1500000
   },
   {
-    "id": 29,
-    "title": 29,
+    "id": 27,
+    "title": 27,
     "no": 61,
     "name": "Jeanpierre, Lemuel",
     "last": "Jeanpierre",
@@ -510,8 +476,8 @@
     "cap": 665000
   },
   {
-    "id": 30,
-    "title": 30,
+    "id": 28,
+    "title": 28,
     "no": 1,
     "name": "Johnson, Keelan",
     "last": "Johnson",
@@ -527,8 +493,8 @@
     "cap": 435000
   },
   {
-    "id": 31,
-    "title": 31,
+    "id": 29,
+    "title": 29,
     "no": 15,
     "name": "Kearse, Jermaine",
     "last": "Kearse",
@@ -544,8 +510,8 @@
     "cap": 2356000
   },
   {
-    "id": 32,
-    "title": 32,
+    "id": 30,
+    "title": 30,
     "no": 93,
     "name": "King, David",
     "last": "King",
@@ -561,8 +527,8 @@
     "cap": 510000
   },
   {
-    "id": 33,
-    "title": 33,
+    "id": 31,
+    "title": 31,
     "no": 2,
     "name": "Lambert, Keenan",
     "last": "Lambert",
@@ -578,11 +544,11 @@
     "cap": 438333
   },
   {
-    "id": 34,
-    "title": 34,
+    "id": 32,
+    "title": 32,
     "no": 20,
     "name": "Lane, Jeremy",
-    "last": "Lane",
+    "last": "Lane (PUP)",
     "first": "Jeremy",
     "pos": "CB",
     "status": "Active/PUP",
@@ -595,8 +561,8 @@
     "cap": 691279
   },
   {
-    "id": 35,
-    "title": 35,
+    "id": 33,
+    "title": 33,
     "no": 65,
     "name": "Lewis, Patrick",
     "last": "Lewis",
@@ -612,8 +578,8 @@
     "cap": 585000
   },
   {
-    "id": 36,
-    "title": 36,
+    "id": 34,
+    "title": 34,
     "no": 16,
     "name": "Lockett, Tyler",
     "last": "Lockett",
@@ -629,8 +595,8 @@
     "cap": 631688
   },
   {
-    "id": 37,
-    "title": 37,
+    "id": 35,
+    "title": 35,
     "no": 83,
     "name": "Lockette, Ricardo",
     "last": "Lockette",
@@ -646,8 +612,8 @@
     "cap": 660000
   },
   {
-    "id": 38,
-    "title": 38,
+    "id": 36,
+    "title": 36,
     "no": 24,
     "name": "Lynch, Marshawn",
     "last": "Lynch",
@@ -663,8 +629,8 @@
     "cap": 8500000
   },
   {
-    "id": 39,
-    "title": 39,
+    "id": 37,
+    "title": 37,
     "no": 91,
     "name": "Marsh, Cassius",
     "last": "Marsh",
@@ -680,8 +646,8 @@
     "cap": 627563
   },
   {
-    "id": 40,
-    "title": 40,
+    "id": 38,
+    "title": 38,
     "no": 42,
     "name": "Martin, Ronald",
     "last": "Martin",
@@ -697,8 +663,8 @@
     "cap": 436666
   },
   {
-    "id": 41,
-    "title": 41,
+    "id": 39,
+    "title": 39,
     "no": 13,
     "name": "Matthews, Chris",
     "last": "Matthews",
@@ -714,8 +680,8 @@
     "cap": 510000
   },
   {
-    "id": 42,
-    "title": 42,
+    "id": 40,
+    "title": 40,
     "no": 85,
     "name": "McCoy, Anthony",
     "last": "McCoy",
@@ -731,8 +697,8 @@
     "cap": 735000
   },
   {
-    "id": 43,
-    "title": 43,
+    "id": 41,
+    "title": 41,
     "no": 70,
     "name": "McGill, T.Y.",
     "last": "McGill",
@@ -748,8 +714,8 @@
     "cap": 435000
   },
   {
-    "id": 44,
-    "title": 44,
+    "id": 42,
+    "title": 42,
     "no": 19,
     "name": "McNeil, Douglas",
     "last": "McNeil",
@@ -765,8 +731,8 @@
     "cap": 435000
   },
   {
-    "id": 45,
-    "title": 45,
+    "id": 43,
+    "title": 43,
     "no": 92,
     "name": "Mebane, Brandon",
     "last": "Mebane",
@@ -782,8 +748,8 @@
     "cap": 5700000
   },
   {
-    "id": 46,
-    "title": 46,
+    "id": 44,
+    "title": 44,
     "no": 33,
     "name": "Michael, Christine",
     "last": "Michael",
@@ -799,8 +765,8 @@
     "cap": 920299
   },
   {
-    "id": 47,
-    "title": 47,
+    "id": 45,
+    "title": 45,
     "no": 66,
     "name": "Milton, Keavon",
     "last": "Milton",
@@ -816,8 +782,8 @@
     "cap": 510000
   },
   {
-    "id": 48,
-    "title": 48,
+    "id": 46,
+    "title": 46,
     "no": 57,
     "name": "Morgan, Mike",
     "last": "Morgan",
@@ -833,8 +799,8 @@
     "cap": 1000000
   },
   {
-    "id": 49,
-    "title": 49,
+    "id": 47,
+    "title": 47,
     "no": 36,
     "name": "Murphy, Ryan",
     "last": "Murphy",
@@ -850,8 +816,8 @@
     "cap": 448373
   },
   {
-    "id": 50,
-    "title": 50,
+    "id": 48,
+    "title": 48,
     "no": 43,
     "name": "Nealy, Quayshawn",
     "last": "Nealy",
@@ -867,8 +833,8 @@
     "cap": 437500
   },
   {
-    "id": 51,
-    "title": 51,
+    "id": 49,
+    "title": 49,
     "no": 81,
     "name": "Norwood, Kevin",
     "last": "Norwood",
@@ -884,13 +850,13 @@
     "cap": 615027
   },
   {
-    "id": 52,
-    "title": 52,
+    "id": 50,
+    "title": 50,
     "no": 62,
     "name": "Nowak, Drew",
     "last": "Nowak",
     "first": "Drew",
-    "pos": "G",
+    "pos": "C",
     "status": "Active",
     "feet": 6,
     "inches": 3,
@@ -901,8 +867,8 @@
     "cap": 435000
   },
   {
-    "id": 53,
-    "title": 53,
+    "id": 51,
+    "title": 51,
     "no": 76,
     "name": "Okung, Russell",
     "last": "Okung",
@@ -918,8 +884,8 @@
     "cap": 7280000
   },
   {
-    "id": 54,
-    "title": 54,
+    "id": 52,
+    "title": 52,
     "no": 74,
     "name": "Pericak, Will",
     "last": "Pericak",
@@ -935,8 +901,8 @@
     "cap": 435000
   },
   {
-    "id": 55,
-    "title": 55,
+    "id": 53,
+    "title": 53,
     "no": 58,
     "name": "Pierre-Louis, Kevin",
     "last": "Pierre-Louis",
@@ -952,8 +918,8 @@
     "cap": 606413
   },
   {
-    "id": 56,
-    "title": 56,
+    "id": 54,
+    "title": 54,
     "no": 39,
     "name": "Pinkins, Eric",
     "last": "Pinkins",
@@ -969,8 +935,8 @@
     "cap": 457058
   },
   {
-    "id": 57,
-    "title": 57,
+    "id": 55,
+    "title": 55,
     "no": 69,
     "name": "Poole, Terry",
     "last": "Poole",
@@ -986,8 +952,8 @@
     "cap": 547563
   },
   {
-    "id": 58,
-    "title": 58,
+    "id": 56,
+    "title": 56,
     "no": 34,
     "name": "Rawls, Thomas",
     "last": "Rawls",
@@ -1003,8 +969,8 @@
     "cap": 440000
   },
   {
-    "id": 59,
-    "title": 59,
+    "id": 57,
+    "title": 57,
     "no": 10,
     "name": "Richardson, Paul",
     "last": "Richardson",
@@ -1020,8 +986,8 @@
     "cap": 1071099
   },
   {
-    "id": 60,
-    "title": 60,
+    "id": 58,
+    "title": 58,
     "no": 44,
     "name": "Robinson, Ryan",
     "last": "Robinson",
@@ -1037,8 +1003,8 @@
     "cap": 333000
   },
   {
-    "id": 61,
-    "title": 61,
+    "id": 59,
+    "title": 59,
     "no": 77,
     "name": "Rubin, Ahtyba",
     "last": "Rubin",
@@ -1054,8 +1020,8 @@
     "cap": 2600000
   },
   {
-    "id": 62,
-    "title": 62,
+    "id": 60,
+    "title": 60,
     "no": 9,
     "name": "Ryan, Jon",
     "last": "Ryan",
@@ -1071,25 +1037,8 @@
     "cap": 1500000
   },
   {
-    "id": 63,
-    "title": 63,
-    "no": 53,
-    "name": "Schwenke, Kona",
-    "last": "Schwenke",
-    "first": "Kona",
-    "pos": "G",
-    "status": "Active",
-    "feet": 6,
-    "inches": 4,
-    "weight": 285,
-    "birthdate": "5/11/1992",
-    "exp": 1,
-    "college": "Notre Dame",
-    "cap": 435000
-  },
-  {
-    "id": 64,
-    "title": 64,
+    "id": 61,
+    "title": 61,
     "no": 98,
     "name": "Scruggs, Greg",
     "last": "Scruggs",
@@ -1105,8 +1054,8 @@
     "cap": 785000
   },
   {
-    "id": 65,
-    "title": 65,
+    "id": 62,
+    "title": 62,
     "no": 39,
     "name": "Seisay, Mohammed",
     "last": "Seisay",
@@ -1122,8 +1071,8 @@
     "cap": 510000
   },
   {
-    "id": 66,
-    "title": 66,
+    "id": 63,
+    "title": 63,
     "no": 35,
     "name": "Shead, DeShawn",
     "last": "Shead",
@@ -1139,8 +1088,8 @@
     "cap": 660000
   },
   {
-    "id": 67,
-    "title": 67,
+    "id": 64,
+    "title": 64,
     "no": 25,
     "name": "Sherman, Richard",
     "last": "Sherman",
@@ -1156,8 +1105,8 @@
     "cap": 12200000
   },
   {
-    "id": 68,
-    "title": 68,
+    "id": 65,
+    "title": 65,
     "no": 27,
     "name": "Simon, Tharold",
     "last": "Simon",
@@ -1173,8 +1122,8 @@
     "cap": 636725
   },
   {
-    "id": 69,
-    "title": 69,
+    "id": 66,
+    "title": 66,
     "no": 94,
     "name": "Singleton, Alex",
     "last": "Singleton",
@@ -1190,8 +1139,8 @@
     "cap": 435000
   },
   {
-    "id": 70,
-    "title": 70,
+    "id": 67,
+    "title": 67,
     "no": 22,
     "name": "Smith, Tye",
     "last": "Smith",
@@ -1207,8 +1156,8 @@
     "cap": 476563
   },
   {
-    "id": 71,
-    "title": 71,
+    "id": 68,
+    "title": 68,
     "no": 45,
     "name": "Smith, Rod",
     "last": "Smith",
@@ -1224,8 +1173,8 @@
     "cap": 436666
   },
   {
-    "id": 72,
-    "title": 72,
+    "id": 69,
+    "title": 69,
     "no": 75,
     "name": "Smith, D'Anthony",
     "last": "Smith",
@@ -1241,8 +1190,8 @@
     "cap": 635000
   },
   {
-    "id": 73,
-    "title": 73,
+    "id": 70,
+    "title": 70,
     "no": 17,
     "name": "Smith, Kevin",
     "last": "Smith",
@@ -1258,8 +1207,8 @@
     "cap": 435000
   },
   {
-    "id": 74,
-    "title": 74,
+    "id": 71,
+    "title": 71,
     "no": 67,
     "name": "Sokoli, Kristjan",
     "last": "Sokoli",
@@ -1275,8 +1224,8 @@
     "cap": 457621
   },
   {
-    "id": 75,
-    "title": 75,
+    "id": 72,
+    "title": 72,
     "no": 64,
     "name": "Sweezy, J.R.",
     "last": "Sweezy",
@@ -1292,8 +1241,8 @@
     "cap": 1556212
   },
   {
-    "id": 76,
-    "title": 76,
+    "id": 73,
+    "title": 73,
     "no": 23,
     "name": "Terrell, Steven",
     "last": "Terrell",
@@ -1309,8 +1258,8 @@
     "cap": 510000
   },
   {
-    "id": 77,
-    "title": 77,
+    "id": 74,
+    "title": 74,
     "no": 29,
     "name": "Thomas, Earl",
     "last": "Thomas",
@@ -1326,8 +1275,8 @@
     "cap": 7400000
   },
   {
-    "id": 78,
-    "title": 78,
+    "id": 75,
+    "title": 75,
     "no": 46,
     "name": "Tukuafu, Will",
     "last": "Tukuafu",
@@ -1343,8 +1292,8 @@
     "cap": 665000
   },
   {
-    "id": 79,
-    "title": 79,
+    "id": 76,
+    "title": 76,
     "no": 32,
     "name": "Turbin, Robert",
     "last": "Turbin",
@@ -1360,8 +1309,8 @@
     "cap": 774114
   },
   {
-    "id": 80,
-    "title": 80,
+    "id": 77,
+    "title": 77,
     "no": 38,
     "name": "Wade, Triston",
     "last": "Wade",
@@ -1377,8 +1326,8 @@
     "cap": 440000
   },
   {
-    "id": 81,
-    "title": 81,
+    "id": 78,
+    "title": 78,
     "no": 54,
     "name": "Wagner, Bobby",
     "last": "Wagner",
@@ -1394,8 +1343,8 @@
     "cap": 2970663
   },
   {
-    "id": 82,
-    "title": 82,
+    "id": 79,
+    "title": 79,
     "no": 74,
     "name": "Warmsley, Julius",
     "last": "Warmsley",
@@ -1411,25 +1360,8 @@
     "cap": 435000
   },
   {
-    "id": 83,
-    "title": 83,
-    "no": 14,
-    "name": "Waters, Jake",
-    "last": "Waters",
-    "first": "Jake",
-    "pos": "QB",
-    "status": "Active",
-    "feet": 6,
-    "inches": 1,
-    "weight": 216,
-    "birthdate": "3/20/1992",
-    "exp": 0,
-    "college": "Kansas State",
-    "cap": 435000
-  },
-  {
-    "id": 84,
-    "title": 84,
+    "id": 80,
+    "title": 80,
     "no": 90,
     "name": "Williams, Jesse",
     "last": "Williams",
@@ -1445,8 +1377,8 @@
     "cap": 435000
   },
   {
-    "id": 85,
-    "title": 85,
+    "id": 81,
+    "title": 81,
     "no": 26,
     "name": "Williams, Cary",
     "last": "Williams",
@@ -1462,8 +1394,8 @@
     "cap": 4666666
   },
   {
-    "id": 86,
-    "title": 86,
+    "id": 82,
+    "title": 82,
     "no": 18,
     "name": "Williams, Kasen",
     "last": "Williams",
@@ -1479,8 +1411,8 @@
     "cap": 435000
   },
   {
-    "id": 87,
-    "title": 87,
+    "id": 83,
+    "title": 83,
     "no": 82,
     "name": "Willson, Luke",
     "last": "Willson",
@@ -1496,8 +1428,8 @@
     "cap": 629633
   },
   {
-    "id": 88,
-    "title": 88,
+    "id": 84,
+    "title": 84,
     "no": 3,
     "name": "Wilson, Russell",
     "last": "Wilson",
@@ -1513,8 +1445,8 @@
     "cap": 7054868
   },
   {
-    "id": 89,
-    "title": 89,
+    "id": 85,
+    "title": 85,
     "no": 50,
     "name": "Wright, K.J.",
     "last": "Wright",
@@ -1530,14 +1462,14 @@
     "cap": 4750000
   },
   {
-    "id": 90,
-    "title": 90,
+    "id": 86,
+    "title": 86,
     "no": 31,
     "name": "Chancellor, Kam",
     "last": "Chancellor",
     "first": "Kam",
     "pos": "SS",
-    "status": "Reserve/DNR",
+    "status": "Reserve/Did Not Report",
     "feet": 6,
     "inches": 3,
     "weight": 232,
@@ -1547,8 +1479,8 @@
     "cap": 5650000
   },
   {
-    "id": 91,
-    "title": 91,
+    "id": 87,
+    "title": 87,
     "no": 30,
     "name": "Zimmerman, Ty",
     "last": "Zimmerman",
@@ -1562,5 +1494,73 @@
     "exp": 0,
     "college": "Oregon State",
     "cap": 435000
+  },
+  {
+    "id": 88,
+    "title": 88,
+    "no": 86,
+    "name": "Greenberry, Deontay",
+    "last": "Greenberry",
+    "first": "Deontay",
+    "pos": "WR",
+    "status": "Active",
+    "feet": 6,
+    "inches": 1,
+    "weight": 211,
+    "birthdate": "3/7/1994",
+    "exp": 0,
+    "college": "Houston",
+    "cap": 435000
+  },
+  {
+    "id": 89,
+    "title": 89,
+    "no": 11,
+    "name": "Foxx, Deshon",
+    "last": "Foxx",
+    "first": "Deshon",
+    "pos": "WR",
+    "status": "Active",
+    "feet": 5,
+    "inches": 10,
+    "weight": 177,
+    "birthdate": "11/27/1992",
+    "exp": 0,
+    "college": "Connecticut",
+    "cap": 435000
+  },
+  {
+    "id": 90,
+    "title": 90,
+    "no": 41,
+    "name": "Farmer, George",
+    "last": "Farmer",
+    "first": "George",
+    "pos": "CB",
+    "status": "Active",
+    "feet": 6,
+    "inches": 1,
+    "weight": 213,
+    "birthdate": "7/4/1993",
+    "exp": 0,
+    "college": "USC",
+    "cap": 435000
+  },
+  {
+    "id": 91,
+    "title": 91,
+    "no": 79,
+    "name": "Gilliam, Garry",
+    "last": "Gilliam",
+    "first": "Gary",
+    "pos": "T",
+    "status": "Active",
+    "feet": 6,
+    "inches": 5,
+    "weight": 306,
+    "birthdate": "11/26/1990",
+    "exp": 2,
+    "college": "Penn State",
+    "cap": 514000
   }
 ]

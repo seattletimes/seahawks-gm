@@ -48,7 +48,7 @@
                 ng-click="togglePlayer(player)"
                 ng-class="{ 
                   selected: player.selected,
-                  inactive: player.status !== 'Active'
+                  inactive: player.status !== 'Active' && player.status !== 'Reserve/Did Not Report'
                 }"
               >
                 <div class="icons">

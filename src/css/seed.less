@@ -115,7 +115,14 @@ section.groups {
   .justify-content(space-around);
   
   &.inactive {
-    color: @df-middle-gray;
+    background: @df-middle-gray;
+    color: @df-dark-gray;
+    font-weight: bold;
+
+    .icons {
+      .unchecked { display: none }
+      .checked { display: inline-block }
+    }
   }
 
   .icons {
@@ -137,7 +144,7 @@ section.groups {
     .name {
       font-weight: bold;
     }
-    
+
     &.inactive {
       background: @df-middle-gray;
       color: @df-dark-gray;

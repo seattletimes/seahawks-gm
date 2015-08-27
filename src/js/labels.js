@@ -7,7 +7,7 @@ module.exports = {
   FS: "Free safety",
   WR: "Wide receiver",
   CB: "Cornerback",
-  T: "Tailback",
+  T: "Tackle",
   FB: "Fullback",
   RB: "Running back",
   LS: "Long snapper",

@@ -35,7 +35,10 @@ module.exports = function(grunt) {
 
   grunt.registerTask("sheets", "Downloads from Google Sheets -> JSON", function() {
 
-    var auth = require("../auth.json");
+    var auth = {};
+    try {
+      auth = require("../auth.json");
+    } catch (_) { /* no auth.json, that's fine */ }
     var sheetKeys = project.sheets || (auth.google && auth.google.sheets);
 
     if (!sheetKeys || !sheetKeys.length) {

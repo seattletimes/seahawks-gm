@@ -31,10 +31,10 @@
             Total:
           </div>
           <div class="count segment" ng-class="{ excessive: selectedCount > maximumCount} ">
-            {{selectedCount}} players (max: {{maximumCount}})
+            <strong>{{selectedCount}}</strong> players (max: {{maximumCount}})
           </div>
           <div class="cap segment" ng-class="{ excessive: selectedCost > maximumCost }">
-            ${{selectedCost | number}} (max: ${{maximumCost | number}})
+            <strong>${{selectedCost | number}}</strong> (max: ${{maximumCost | number}})
           </div>
           <a class="share segment"></a>
         </section>

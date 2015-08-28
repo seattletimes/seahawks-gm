@@ -54,11 +54,16 @@ h1 {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: white;
-  font-size: 17px;
+  background: @df-light-gray;
+  border-top: 4px solid @df-dark-gray;
+  font-size: 24px;
   padding: 8px;
   box-shadow: 4px 4px 16px rgba(0, 0, 0, .3);
   z-index: 9999;
+
+  @media @mobile {
+    font-size: 17px;
+  }
 
   .segment {
     display: inline-block;
@@ -70,6 +75,11 @@ h1 {
 
     &.share {
       float: right;
+      margin-bottom: 20px;
+
+      @media @mobile {
+        margin: 10px 0;
+      }
 
       label {
         background: white !important;
@@ -120,8 +130,7 @@ section.groups {
   
   &.inactive {
     background: @df-middle-gray;
-    color: @df-dark-gray;
-    font-weight: bold;
+    color: @df-off-white;
 
     .icons {
       .unchecked { display: none }
@@ -151,7 +160,11 @@ section.groups {
 
     &.inactive {
       background: @df-middle-gray;
-      color: @df-dark-gray;
+      color: @df-off-white;
+
+      .name {
+        font-weight: normal;
+      }
     }
   }
 

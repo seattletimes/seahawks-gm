@@ -34,7 +34,7 @@ var roster = function($scope) {
     var count = 0;
     var cost = 0;
     raw.forEach(function(p) {
-      if (p.selected && ( p.status == "Active" || 'Reserve/Did Not Report') ) {
+      if (p.selected && ( p.status == "Active" || p.status == 'Reserve/Did Not Report') ) {
         count++;
         cost += p.cap;
       }

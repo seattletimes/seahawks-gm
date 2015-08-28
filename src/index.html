@@ -11,7 +11,7 @@
     <style>[ng-cloak] { display: none }</style>
   </head>
   <body ng-app="be-the-gm">
-  
+
     <%= t.include("partials/_ad.html", { type: "banner" }) %>
 
     <%= t.include("partials/_dfHeader.html") %>
@@ -21,7 +21,14 @@
       <img src="./assets/header.jpg" class="header">
 
       <p>
-        On Sept. 5th, the Seahawks will announce their final roster of 53 players. Who would you pick? Use our interactive below to choose your team &mdash; but be careful of the salary cap! We've gone ahead and selected positions where only one player is available to get you started.
+        On Sept. 5, the Seahawks will announce their final roster of 53 players. Who would you pick? Use our interactive below to choose your team &mdash; but be careful of the salary cap! This season, thanks to rollover money from previous years, the Seahawks have a maximum salary of $148.26 million, more than the NFL average of $143.28 million.
+      </p>
+      <p>
+        We've gone ahead and selected positions where only one player is available to get you started. One catch: Players who are currently injured are grayed-out and cannot be removed from the team. But they don't count toward your 53-player maximum. And Kam Chancellor ... even though he's holding out, you can select him anyway.
+      </p>
+      <p>
+        Once you've completed your roster, use the 'share' button to compare your ultimate Seahawks team with your friends' own squads.
+      </p>
 
       <p class="source">Source: OverTheCap.com
 
@@ -40,15 +47,15 @@
         </section>
         <section class="groups">
           <div class="position-group" ng-repeat="position in positions" ng-class="{ large: position.players.length > 5 }">
-            
+
             <h2>{{position.label}}</h2>
-            
+
             <ul class="players">
               <li
                 class="player"
                 ng-repeat="player in position.players"
                 ng-click="togglePlayer(player)"
-                ng-class="{ 
+                ng-class="{
                   selected: player.selected,
                   inactive: player.status !== 'Active' && player.status !== 'Reserve/Did Not Report'
                 }"

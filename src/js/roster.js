@@ -32,7 +32,7 @@ var roster = function($scope) {
   $scope.togglePlayer = function(player) {
     player.selected = !player.selected;
     var count = 0;
-    var cost = 0;
+    var cost = 11514389;
     raw.forEach(function(p) {
       if (p.selected && ( p.status == "Active" || p.status == 'Reserve/Did Not Report') ) {
         count++;

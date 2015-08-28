@@ -72,11 +72,60 @@ nav.main-nav {
     max-width: 1020px;
     margin: auto;
     position: relative;
-    text-align: center;
 
     @media @tablet {
       height: 40px;
       padding: 10px;
+    }
+
+    @media @mobile {
+      height: 75px;
+    }
+
+    .sponsor {
+      display: inline-block;
+      font-family: @df-sans;
+      text-transform: uppercase;
+      color: @df-dark-gray;
+      vertical-align: top;
+      font-size: 16px;
+      float: right;
+
+      .text {
+        vertical-align: top;
+        display: inline-block;
+        padding-top: 32px;
+        padding-left: 20px;
+        padding-right: 7px;
+      }
+
+      img {
+        width: 100px;
+        padding-top: 18px;
+      }
+
+      @media @tablet {
+        font-size: 10px;
+
+        .text {
+          padding-top: 6px;
+        }
+
+        img {
+          width: 60px;
+          padding-top: 0px;
+        }
+      }
+
+      @media @mobile {
+        display: block;
+        padding-top: 5px;
+        float: none;
+
+        .text {
+          padding-left: 0;
+        }
+      }
     }
 
     .share.sharer-0 .social.active.top {
@@ -87,7 +136,6 @@ nav.main-nav {
   }
 
   .logo {
-    display: block;
     vertical-align: middle;
 
     img {
@@ -103,14 +151,14 @@ nav.main-nav {
   }
 
   .share {
-    position: absolute;
-    top: 20px;
-    right: 10px;
+    display: inline-block !important;
+    vertical-align: top !important;
+    margin-top: 30px;
+    margin-left: 10px;
 
     @media @tablet {
-      top: 10px;
-      right: 4px;
       width: auto !important;
+      margin-top: 2px;
     }
 
     label {
@@ -118,6 +166,10 @@ nav.main-nav {
     }
 
     @media @mobile {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+
       label {
         span {
           display: none;

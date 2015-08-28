@@ -17,7 +17,7 @@ module.exports = {
   restore(roster) {
     var indexed;
     if (window.location.search) {
-      var bytemasks = window.location.search.replace(/^\?/, "").split(":").map(Number);
+      var bytemasks = decodeURIComponent(window.location.search).replace(/^\?/, "").split(":").map(Number);
       roster.forEach(function(player) {
         var maskIndex = Math.floor(player.id / 32);
         var mask = bytemasks[maskIndex];

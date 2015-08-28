@@ -72,6 +72,7 @@ nav.main-nav {
     max-width: 1020px;
     margin: auto;
     position: relative;
+    margin-top: 20px;
 
     @media @tablet {
       height: 40px;
@@ -132,6 +133,18 @@ nav.main-nav {
       -webkit-transform: translateY(15px) !important;
       -ms-transform: translateY(15px) !important;
       transform: translateY(15px) !important;
+
+      ul {
+        -webkit-transform: translateX(275px) !important;
+        -ms-transform: translateX(275px) !important;
+        transform: translateX(275px);
+
+        @media @mobile {
+          -webkit-transform: translateX(0) !important;
+          -ms-transform: translateX(0) !important;
+          transform: translateX(0);
+        }
+      }
     }
   }
 

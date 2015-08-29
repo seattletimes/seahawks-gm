@@ -10,14 +10,18 @@ module.exports = {
         bytemasks[maskIndex] += flag;
       }
     });
-    window.history.replaceState({}, "", "?" + bytemasks.join(":"));
+    window.history.replaceState({}, "", "?roster=" + bytemasks.join("-"));
 
     localStorage.setItem("seahawks-gm-2015", roster.filter(p => p.selected).map(p => p.no));
   },
   restore(roster) {
-    var indexed;
-    if (window.location.search) {
-      var bytemasks = decodeURIComponent(window.location.search).replace(/^\?/, "").split(":").map(Number);
+    var query = window.location.search.replace(/^\?/, "").split("&").reduce(function(hash, pair) {
+      var split = pair.split("=");
+      hash[split[0]] = split[1];
+      return hash;
+    }, {});
+    if (query.roster) {
+      var bytemasks = decodeURIComponent(query.roster).split("-").map(Number);
       roster.forEach(function(player) {
         var maskIndex = Math.floor(player.id / 32);
         var mask = bytemasks[maskIndex];

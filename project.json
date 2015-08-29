@@ -12,10 +12,10 @@
   "sheets": ["1RPM_WZtUuhDd1oWxOgPsEu44KjbTZdWdAs2iAAhH5qI"],
   "title": "Seahawks Roster: Be the GM",
   "description": "Can you put together the ultimate team? Try your hand at building the Seahawks’ roster for this season.",
-  "url": "",
+  "url": "http://projects.seattletimes.com/2015/seahawks-roster-be-the-gm/",
   "slug": "",
   "tags": ["seahawks", "roster", "football", "sports"],
-  "image": "projects-staging.seattletimes.com/thoughtless-packer/assets/social.jpg",
-  "production": false,
+  "image": "assets/social.jpg",
+  "production": true,
   "embedded": false
 }

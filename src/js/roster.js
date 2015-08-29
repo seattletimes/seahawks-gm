@@ -2,6 +2,7 @@ var app = require("./application");
 var raw = window.rosterData;
 var labels = require("./labels");
 var memory = require("./memory");
+var social = require("./lib/social");
 
 var byPosition = {};
 raw.forEach(function(row) {
@@ -18,13 +19,15 @@ for (var key in byPosition) {
 
 memory.restore(raw);
 
+var startingCap = 11514389;
+
 var roster = function($scope) {
 
   $scope.players = raw;
   $scope.positions = Object.keys(byPosition).sort().map(k => ({ label: k, players: byPosition[k] }));
 
   $scope.selectedCount = raw.filter(x => x.selected).length;
-  $scope.selectedCost = raw.reduce((n, x) => x.selected ? n + x.cap : n, 0);
+  $scope.selectedCost = raw.reduce((n, x) => x.selected ? n + x.cap : n, startingCap);
 
   $scope.maximumCount = 53;
   $scope.maximumCost = 148257738;
@@ -32,7 +35,7 @@ var roster = function($scope) {
   $scope.togglePlayer = function(player) {
     player.selected = !player.selected;
     var count = 0;
-    var cost = 11514389;
+    var cost = startingCap;
     raw.forEach(function(p) {
       if (p.selected && ( p.status == "Active" || p.status == 'Reserve/Did Not Report') ) {
         count++;
@@ -42,6 +45,7 @@ var roster = function($scope) {
     $scope.selectedCount = count;
     $scope.selectedCost = cost;
     memory.save(raw);
+    social.refresh();
 
   };
 

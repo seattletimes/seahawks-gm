@@ -19,7 +19,7 @@ for (var key in byPosition) {
 
 memory.restore(raw);
 
-var startingCap = 11514389;
+var startingCap = 11514389 + 897600;
 
 var roster = function($scope) {
 
@@ -33,21 +33,26 @@ var roster = function($scope) {
   $scope.maximumCost = 148257738;
 
   $scope.togglePlayer = function(player) {
-    player.selected = !player.selected;
+    if (player) {
+      player.selected = !player.selected;
+      memory.save(raw);
+      social.refresh();
+    }
     var count = 0;
     var cost = startingCap;
     raw.forEach(function(p) {
       if (p.selected && ( p.status == "Active" || p.status == 'Reserve/Did Not Report') ) {
         count++;
         cost += p.cap;
+      } else {
+        cost += p.bonus;
       }
     });
     $scope.selectedCount = count;
     $scope.selectedCost = cost;
-    memory.save(raw);
-    social.refresh();
-
   };
+  
+  $scope.togglePlayer();
 
 };
 roster.$inject = ["$scope"];

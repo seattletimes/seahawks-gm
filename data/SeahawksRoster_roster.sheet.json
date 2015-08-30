@@ -15,7 +15,8 @@
     "birthdate": "4/11/1992",
     "exp": 0,
     "college": "West Georgia",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 0
   },
   {
     "id": 1,
@@ -33,7 +34,8 @@
     "birthdate": "2/25/1990",
     "exp": 2,
     "college": "Southern U.",
-    "cap": 510000
+    "cap": 510000,
+    "bonus": 0
   },
   {
     "id": 2,
@@ -51,7 +53,8 @@
     "birthdate": "8/5/1987",
     "exp": 1,
     "college": "William & Mary",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 0
   },
   {
     "id": 3,
@@ -69,7 +72,8 @@
     "birthdate": "4/8/1986",
     "exp": 8,
     "college": "Purdue",
-    "cap": 8000000
+    "cap": 8000000,
+    "bonus": 500000
   },
   {
     "id": 4,
@@ -87,7 +91,8 @@
     "birthdate": "8/26/1991",
     "exp": 3,
     "college": "Arkansas",
-    "cap": 587000
+    "cap": 587000,
+    "bonus": 2000
   },
   {
     "id": 5,
@@ -105,7 +110,8 @@
     "birthdate": "3/2/1992",
     "exp": 2,
     "college": "USC",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 3334
   },
   {
     "id": 6,
@@ -123,7 +129,8 @@
     "birthdate": "9/21/1988",
     "exp": 5,
     "college": "Stanford",
-    "cap": 4650000
+    "cap": 4650000,
+    "bonus": 1850000
   },
   {
     "id": 7,
@@ -141,7 +148,8 @@
     "birthdate": "11/13/1985",
     "exp": 7,
     "college": "Texas A&M",
-    "cap": 8000000
+    "cap": 8000000,
+    "bonus": 2000000
   },
   {
     "id": 8,
@@ -159,7 +167,8 @@
     "birthdate": "10/27/1984",
     "exp": 9,
     "college": "Boston College",
-    "cap": 665000
+    "cap": 665000,
+    "bonus": 80000
   },
   {
     "id": 9,
@@ -177,7 +186,8 @@
     "birthdate": "5/29/1991",
     "exp": 2,
     "college": "Missouri",
-    "cap": 785666
+    "cap": 785666,
+    "bonus": 208533
   },
   {
     "id": 10,
@@ -195,7 +205,8 @@
     "birthdate": "7/16/1990",
     "exp": 3,
     "college": "Delaware",
-    "cap": 510000
+    "cap": 510000,
+    "bonus": 0
   },
   {
     "id": 11,
@@ -213,7 +224,8 @@
     "birthdate": "6/14/1993",
     "exp": 0,
     "college": "Michigan",
-    "cap": 678586
+    "cap": 678586,
+    "bonus": 243586
   },
   {
     "id": 12,
@@ -231,7 +243,8 @@
     "birthdate": "10/18/1990",
     "exp": 4,
     "college": "UCLA",
-    "cap": 585000
+    "cap": 585000,
+    "bonus": 0
   },
   {
     "id": 13,
@@ -249,7 +262,8 @@
     "birthdate": "12/21/1992",
     "exp": 0,
     "college": "Purdue",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 0
   },
   {
     "id": 14,
@@ -267,7 +281,8 @@
     "birthdate": "10/12/1990",
     "exp": 2,
     "college": "Montana",
-    "cap": 511000
+    "cap": 511000,
+    "bonus": 1000
   },
   {
     "id": 15,
@@ -285,7 +300,8 @@
     "birthdate": "10/24/1989",
     "exp": 3,
     "college": "South Florida",
-    "cap": 510000
+    "cap": 510000,
+    "bonus": 0
   },
   {
     "id": 16,
@@ -303,7 +319,8 @@
     "birthdate": "9/15/1991",
     "exp": 0,
     "college": "Idaho",
-    "cap": 437000
+    "cap": 437000,
+    "bonus": 2000
   },
   {
     "id": 17,
@@ -321,7 +338,8 @@
     "birthdate": "11/30/1987",
     "exp": 5,
     "college": "Georgia",
-    "cap": 665000
+    "cap": 665000,
+    "bonus": 80000
   },
   {
     "id": 18,
@@ -339,7 +357,8 @@
     "birthdate": "5/3/1992",
     "exp": 0,
     "college": "West Virginia",
-    "cap": 521422
+    "cap": 521422,
+    "bonus": 86423
   },
   {
     "id": 19,
@@ -357,7 +376,8 @@
     "birthdate": "11/24/1986",
     "exp": 6,
     "college": "Miami (Fla.)",
-    "cap": 8000000
+    "cap": 8000000,
+    "bonus": 5100000
   },
   {
     "id": 20,
@@ -375,7 +395,8 @@
     "birthdate": "8/24/1986",
     "exp": 6,
     "college": "TCU",
-    "cap": 845000
+    "cap": 845000,
+    "bonus": 100000
   },
   {
     "id": 21,
@@ -393,7 +414,8 @@
     "birthdate": "3/20/1991",
     "exp": 0,
     "college": "Oregon State",
-    "cap": 457621
+    "cap": 457621,
+    "bonus": 22621
   },
   {
     "id": 22,
@@ -411,7 +433,8 @@
     "birthdate": "6/29/1985",
     "exp": 8,
     "college": "N.C. State",
-    "cap": 3325000
+    "cap": 3325000,
+    "bonus": 1325000
   },
   {
     "id": 23,
@@ -429,7 +452,8 @@
     "birthdate": "6/21/1989",
     "exp": 4,
     "college": "Duke",
-    "cap": 510000
+    "cap": 510000,
+    "bonus": 0
   },
   {
     "id": 24,
@@ -447,7 +471,8 @@
     "birthdate": "2/8/1991",
     "exp": 3,
     "college": "Penn State",
-    "cap": 741035
+    "cap": 741035,
+    "bonus": 156035
   },
   {
     "id": 25,
@@ -465,7 +490,8 @@
     "birthdate": "11/1/1987",
     "exp": 4,
     "college": "West Virginia",
-    "cap": 2895542
+    "cap": 2895542,
+    "bonus": 1231607
   },
   {
     "id": 26,
@@ -483,7 +509,8 @@
     "birthdate": "4/21/1983",
     "exp": 10,
     "college": "Alabama State",
-    "cap": 1500000
+    "cap": 1500000,
+    "bonus": 250000
   },
   {
     "id": 27,
@@ -501,7 +528,8 @@
     "birthdate": "5/19/1987",
     "exp": 6,
     "college": "South Carolina",
-    "cap": 665000
+    "cap": 665000,
+    "bonus": 80000
   },
   {
     "id": 28,
@@ -519,7 +547,8 @@
     "birthdate": "9/26/1989",
     "exp": 1,
     "college": "Arizona State",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 0
   },
   {
     "id": 29,
@@ -537,7 +566,8 @@
     "birthdate": "2/6/1990",
     "exp": 4,
     "college": "Washington",
-    "cap": 2356000
+    "cap": 2356000,
+    "bonus": 0
   },
   {
     "id": 30,
@@ -555,7 +585,8 @@
     "birthdate": "12/27/1989",
     "exp": 3,
     "college": "Oklahoma",
-    "cap": 510000
+    "cap": 510000,
+    "bonus": 0
   },
   {
     "id": 31,
@@ -573,7 +604,8 @@
     "birthdate": "2/28/1992",
     "exp": 0,
     "college": "Norfolk State",
-    "cap": 438333
+    "cap": 438333,
+    "bonus": 3333
   },
   {
     "id": 32,
@@ -591,7 +623,8 @@
     "birthdate": "7/14/1990",
     "exp": 4,
     "college": "Northwestern State-La.",
-    "cap": 691279
+    "cap": 691279,
+    "bonus": 31279
   },
   {
     "id": 33,
@@ -609,7 +642,8 @@
     "birthdate": "1/30/1991",
     "exp": 3,
     "college": "Texas A&M",
-    "cap": 585000
+    "cap": 585000,
+    "bonus": 0
   },
   {
     "id": 34,
@@ -627,7 +661,8 @@
     "birthdate": "9/28/1992",
     "exp": 0,
     "college": "Kansas State",
-    "cap": 631688
+    "cap": 631688,
+    "bonus": 196687
   },
   {
     "id": 35,
@@ -645,7 +680,8 @@
     "birthdate": "5/21/1986",
     "exp": 5,
     "college": "Fort Valley State",
-    "cap": 660000
+    "cap": 660000,
+    "bonus": 0
   },
   {
     "id": 36,
@@ -663,7 +699,8 @@
     "birthdate": "4/22/1986",
     "exp": 9,
     "college": "California",
-    "cap": 8500000
+    "cap": 8500000,
+    "bonus": 4000000
   },
   {
     "id": 37,
@@ -681,7 +718,8 @@
     "birthdate": "7/7/1992",
     "exp": 2,
     "college": "UCLA",
-    "cap": 627563
+    "cap": 627563,
+    "bonus": 117563
   },
   {
     "id": 38,
@@ -699,7 +737,8 @@
     "birthdate": "2/26/1993",
     "exp": 0,
     "college": "LSU",
-    "cap": 436666
+    "cap": 436666,
+    "bonus": 1666
   },
   {
     "id": 39,
@@ -717,7 +756,8 @@
     "birthdate": "10/6/1989",
     "exp": 2,
     "college": "Kentucky",
-    "cap": 510000
+    "cap": 510000,
+    "bonus": 5000
   },
   {
     "id": 40,
@@ -735,7 +775,8 @@
     "birthdate": "12/28/1987",
     "exp": 6,
     "college": "USC",
-    "cap": 735000
+    "cap": 735000,
+    "bonus": 75000
   },
   {
     "id": 41,
@@ -753,7 +794,8 @@
     "birthdate": "11/23/1992",
     "exp": 0,
     "college": "N.C. State",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 0
   },
   {
     "id": 42,
@@ -771,7 +813,8 @@
     "birthdate": "7/22/1988",
     "exp": 2,
     "college": "Bowie State",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 0
   },
   {
     "id": 43,
@@ -789,7 +832,8 @@
     "birthdate": "1/15/1985",
     "exp": 9,
     "college": "California",
-    "cap": 5700000
+    "cap": 5700000,
+    "bonus": 200000
   },
   {
     "id": 44,
@@ -807,7 +851,8 @@
     "birthdate": "11/9/1990",
     "exp": 3,
     "college": "Texas A&M",
-    "cap": 920299
+    "cap": 920299,
+    "bonus": 208533
   },
   {
     "id": 45,
@@ -825,7 +870,8 @@
     "birthdate": "6/23/1990",
     "exp": 3,
     "college": "Louisiana-Monroe",
-    "cap": 510000
+    "cap": 510000,
+    "bonus": 0
   },
   {
     "id": 46,
@@ -843,7 +889,8 @@
     "birthdate": "1/16/1988",
     "exp": 5,
     "college": "USC",
-    "cap": 1000000
+    "cap": 1000000,
+    "bonus": 250000
   },
   {
     "id": 47,
@@ -861,7 +908,8 @@
     "birthdate": "10/14/1992",
     "exp": 0,
     "college": "Oregon State",
-    "cap": 448373
+    "cap": 448373,
+    "bonus": 13373
   },
   {
     "id": 48,
@@ -879,7 +927,8 @@
     "birthdate": "8/5/1991",
     "exp": 0,
     "college": "Georgia Tech",
-    "cap": 437500
+    "cap": 437500,
+    "bonus": 2500
   },
   {
     "id": 49,
@@ -897,7 +946,8 @@
     "birthdate": "9/23/1989",
     "exp": 2,
     "college": "Alabama",
-    "cap": 615027
+    "cap": 615027,
+    "bonus": 105027
   },
   {
     "id": 50,
@@ -915,7 +965,8 @@
     "birthdate": "3/7/1990",
     "exp": 4,
     "college": "W. Michigan",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 0
   },
   {
     "id": 51,
@@ -933,7 +984,8 @@
     "birthdate": "10/7/1987",
     "exp": 6,
     "college": "Oklahoma State",
-    "cap": 7280000
+    "cap": 7280000,
+    "bonus": 2480000
   },
   {
     "id": 52,
@@ -951,7 +1003,8 @@
     "birthdate": "12/30/1989",
     "exp": 1,
     "college": "Colorado",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 0
   },
   {
     "id": 53,
@@ -969,7 +1022,8 @@
     "birthdate": "10/7/1991",
     "exp": 2,
     "college": "Boston College",
-    "cap": 606413
+    "cap": 606413,
+    "bonus": 96413
   },
   {
     "id": 54,
@@ -987,7 +1041,8 @@
     "birthdate": "8/7/1991",
     "exp": 2,
     "college": "San Diego State",
-    "cap": 457058
+    "cap": 457058,
+    "bonus": 22058
   },
   {
     "id": 55,
@@ -1005,7 +1060,8 @@
     "birthdate": "2/27/1992",
     "exp": 0,
     "college": "San Jose State",
-    "cap": 547563
+    "cap": 547563,
+    "bonus": 112562
   },
   {
     "id": 56,
@@ -1023,7 +1079,8 @@
     "birthdate": "8/18/1993",
     "exp": 0,
     "college": "Central Michigan",
-    "cap": 440000
+    "cap": 440000,
+    "bonus": 5000
   },
   {
     "id": 57,
@@ -1041,7 +1098,8 @@
     "birthdate": "4/13/1992",
     "exp": 2,
     "college": "Colorado",
-    "cap": 1071099
+    "cap": 1071099,
+    "bonus": 436879
   },
   {
     "id": 58,
@@ -1059,7 +1117,8 @@
     "birthdate": "12/9/1990",
     "exp": 2,
     "college": "Oklahoma State",
-    "cap": 333000
+    "cap": 333000,
+    "bonus": 0
   },
   {
     "id": 59,
@@ -1077,7 +1136,8 @@
     "birthdate": "7/25/1986",
     "exp": 8,
     "college": "Iowa State",
-    "cap": 2600000
+    "cap": 2600000,
+    "bonus": 1250000
   },
   {
     "id": 60,
@@ -1095,7 +1155,8 @@
     "birthdate": "11/26/1981",
     "exp": 10,
     "college": "Regina (Canada)",
-    "cap": 1500000
+    "cap": 1500000,
+    "bonus": 0
   },
   {
     "id": 61,
@@ -1113,7 +1174,8 @@
     "birthdate": "8/17/1990",
     "exp": 4,
     "college": "Louisville",
-    "cap": 785000
+    "cap": 785000,
+    "bonus": 125000
   },
   {
     "id": 62,
@@ -1131,7 +1193,8 @@
     "birthdate": "5/22/1990",
     "exp": 2,
     "college": "Nebraska",
-    "cap": 510000
+    "cap": 510000,
+    "bonus": 0
   },
   {
     "id": 63,
@@ -1149,7 +1212,8 @@
     "birthdate": "6/28/1988",
     "exp": 4,
     "college": "Portland State",
-    "cap": 660000
+    "cap": 660000,
+    "bonus": 0
   },
   {
     "id": 64,
@@ -1167,7 +1231,8 @@
     "birthdate": "3/30/1988",
     "exp": 5,
     "college": "Stanford",
-    "cap": 12200000
+    "cap": 12200000,
+    "bonus": 2200000
   },
   {
     "id": 65,
@@ -1185,7 +1250,8 @@
     "birthdate": "3/6/1991",
     "exp": 3,
     "college": "LSU",
-    "cap": 636725
+    "cap": 636725,
+    "bonus": 51725
   },
   {
     "id": 66,
@@ -1203,7 +1269,8 @@
     "birthdate": "12/7/1993",
     "exp": 0,
     "college": "Montana State",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 1166
   },
   {
     "id": 67,
@@ -1221,7 +1288,8 @@
     "birthdate": "5/3/1993",
     "exp": 0,
     "college": "Towson",
-    "cap": 476563
+    "cap": 476563,
+    "bonus": 41563
   },
   {
     "id": 68,
@@ -1239,7 +1307,8 @@
     "birthdate": "1/10/1992",
     "exp": 0,
     "college": "Ohio State",
-    "cap": 436666
+    "cap": 436666,
+    "bonus": 1666
   },
   {
     "id": 69,
@@ -1257,7 +1326,8 @@
     "birthdate": "6/9/1988",
     "exp": 6,
     "college": "Louisiana Tech",
-    "cap": 585000
+    "cap": 585000,
+    "bonus": 50000
   },
   {
     "id": 70,
@@ -1275,7 +1345,8 @@
     "birthdate": "12/21/1991",
     "exp": 1,
     "college": "Washington",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 0
   },
   {
     "id": 71,
@@ -1293,7 +1364,8 @@
     "birthdate": "9/24/1991",
     "exp": 0,
     "college": "Buffalo",
-    "cap": 457621
+    "cap": 457621,
+    "bonus": 22621
   },
   {
     "id": 72,
@@ -1311,7 +1383,8 @@
     "birthdate": "4/8/1989",
     "exp": 4,
     "college": "N.C. State",
-    "cap": 1556212
+    "cap": 1556212,
+    "bonus": 14212
   },
   {
     "id": 73,
@@ -1329,7 +1402,8 @@
     "birthdate": "9/21/1990",
     "exp": 3,
     "college": "Texas A&M",
-    "cap": 510000
+    "cap": 510000,
+    "bonus": 0
   },
   {
     "id": 74,
@@ -1347,7 +1421,8 @@
     "birthdate": "5/7/1989",
     "exp": 6,
     "college": "Texas",
-    "cap": 7400000
+    "cap": 7400000,
+    "bonus": 1900000
   },
   {
     "id": 75,
@@ -1365,7 +1440,8 @@
     "birthdate": "1/3/1984",
     "exp": 6,
     "college": "Oregon",
-    "cap": 665000
+    "cap": 665000,
+    "bonus": 80000
   },
   {
     "id": 76,
@@ -1383,7 +1459,8 @@
     "birthdate": "12/2/1989",
     "exp": 4,
     "college": "Utah State",
-    "cap": 774114
+    "cap": 774114,
+    "bonus": 114114
   },
   {
     "id": 77,
@@ -1401,7 +1478,8 @@
     "birthdate": "5/19/1993",
     "exp": 0,
     "college": "UTSA",
-    "cap": 440000
+    "cap": 440000,
+    "bonus": 5000
   },
   {
     "id": 78,
@@ -1419,7 +1497,8 @@
     "birthdate": "6/27/1990",
     "exp": 4,
     "college": "Utah State",
-    "cap": 2970663
+    "cap": 2970663,
+    "bonus": 1993236
   },
   {
     "id": 79,
@@ -1437,7 +1516,8 @@
     "birthdate": "5/16/1990",
     "exp": 2,
     "college": "Tulane",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 0
   },
   {
     "id": 80,
@@ -1455,7 +1535,8 @@
     "birthdate": "11/2/1990",
     "exp": 3,
     "college": "Alabama",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 0
   },
   {
     "id": 81,
@@ -1473,7 +1554,8 @@
     "birthdate": "12/23/1984",
     "exp": 8,
     "college": "Washburn",
-    "cap": 4666666
+    "cap": 4666666,
+    "bonus": 1166666
   },
   {
     "id": 82,
@@ -1491,7 +1573,8 @@
     "birthdate": "5/20/1992",
     "exp": 0,
     "college": "Washington",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 0
   },
   {
     "id": 83,
@@ -1509,7 +1592,8 @@
     "birthdate": "1/15/1990",
     "exp": 3,
     "college": "Rice",
-    "cap": 629633
+    "cap": 629633,
+    "bonus": 44633
   },
   {
     "id": 84,
@@ -1527,7 +1611,8 @@
     "birthdate": "11/29/1988",
     "exp": 4,
     "college": "Wisconsin",
-    "cap": 7054868
+    "cap": 7054868,
+    "bonus": 6354868
   },
   {
     "id": 85,
@@ -1545,7 +1630,8 @@
     "birthdate": "7/23/1989",
     "exp": 5,
     "college": "Mississippi State",
-    "cap": 4750000
+    "cap": 4750000,
+    "bonus": 1000000
   },
   {
     "id": 86,
@@ -1563,7 +1649,8 @@
     "birthdate": "4/3/1988",
     "exp": 6,
     "college": "Virginia Tech",
-    "cap": 5650000
+    "cap": 5650000,
+    "bonus": 1100000
   },
   {
     "id": 87,
@@ -1581,7 +1668,8 @@
     "birthdate": "6/23/1990",
     "exp": 0,
     "college": "Oregon State",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 0
   },
   {
     "id": 88,
@@ -1599,7 +1687,8 @@
     "birthdate": "3/7/1994",
     "exp": 0,
     "college": "Houston",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 0
   },
   {
     "id": 89,
@@ -1617,7 +1706,8 @@
     "birthdate": "11/27/1992",
     "exp": 0,
     "college": "Connecticut",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 0
   },
   {
     "id": 90,
@@ -1635,7 +1725,8 @@
     "birthdate": "7/4/1993",
     "exp": 0,
     "college": "USC",
-    "cap": 435000
+    "cap": 435000,
+    "bonus": 0
   },
   {
     "id": 91,
@@ -1653,6 +1744,7 @@
     "birthdate": "11/26/1990",
     "exp": 2,
     "college": "Penn State",
-    "cap": 514000
+    "cap": 514000,
+    "bonus": 4000
   }
 ]

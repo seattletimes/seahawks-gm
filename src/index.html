@@ -43,6 +43,7 @@
           <div class="cap segment" ng-class="{ excessive: selectedCost > maximumCost }">
             <strong>${{selectedCost | number}}</strong> (max: ${{maximumCost | number}})
           </div>
+          <a class="reset segment" ng-click="reset()">Reset</a>
           <a class="share segment"></a>
         </section>
         <section class="groups">

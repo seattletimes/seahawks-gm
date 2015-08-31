@@ -79,12 +79,25 @@ h1 {
       margin-bottom: 20px;
 
       @media @mobile {
-        margin: 10px 0;
+        margin: 0;
       }
 
       label {
         background: @df-light-gray !important;
         border: none;
+      }
+    }
+
+    &.reset {
+      background: @seaBlue;
+      color: @seaGray;
+      padding: 4px 8px;
+      border-radius: 4px;
+      line-height: 1;
+      cursor: pointer;
+
+      @media @mobile {
+        float: left;
       }
     }
   }

@@ -51,9 +51,19 @@ var roster = function($scope) {
     $scope.selectedCount = count;
     $scope.selectedCost = cost;
   };
-  
   $scope.togglePlayer();
 
+  $scope.reset = function() {
+    for (var pos in byPosition) {
+      if (byPosition[pos].length == 1) {
+        byPosition[pos][0].selected = true;
+      } else {
+        byPosition[pos].forEach(p => p.selected = false);
+      }
+    }
+    $scope.togglePlayer();
+  };
+  
 };
 roster.$inject = ["$scope"];
 app.controller("roster", roster);

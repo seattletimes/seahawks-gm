@@ -9,6 +9,9 @@
     "pos": "LB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 2,
     "weight": 228,
@@ -28,6 +31,9 @@
     "pos": "TE",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 4,
     "weight": 250,
@@ -47,6 +53,9 @@
     "pos": "QB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 2,
     "weight": 220,
@@ -66,6 +75,9 @@
     "pos": "DE",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 260,
@@ -85,6 +97,9 @@
     "pos": "G",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 320,
@@ -104,6 +119,9 @@
     "pos": "FS",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 0,
     "weight": 211,
@@ -123,6 +141,9 @@
     "pos": "WR",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 5,
     "inches": 10,
     "weight": 189,
@@ -142,6 +163,9 @@
     "pos": "DE",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 4,
     "weight": 274,
@@ -161,6 +185,9 @@
     "pos": "CB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 0,
     "weight": 204,
@@ -180,6 +207,9 @@
     "pos": "T",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 6,
     "weight": 325,
@@ -199,6 +229,9 @@
     "pos": "CB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 5,
     "inches": 11,
     "weight": 185,
@@ -218,6 +251,9 @@
     "pos": "DE",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 272,
@@ -237,6 +273,9 @@
     "pos": "FB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 0,
     "weight": 233,
@@ -254,8 +293,11 @@
     "last": "Cottom",
     "first": "Brandon",
     "pos": "RB",
-    "status": "Active",
+    "status": "Cut",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 2,
     "weight": 262,
@@ -275,6 +317,9 @@
     "pos": "LB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 1,
     "weight": 243,
@@ -294,6 +339,9 @@
     "pos": "QB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 5,
     "inches": 11,
     "weight": 217,
@@ -311,8 +359,11 @@
     "last": "Davis",
     "first": "Jesse",
     "pos": "T",
-    "status": "Active",
+    "status": "Cut",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 6,
     "weight": 309,
@@ -332,6 +383,9 @@
     "pos": "DE",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 2,
     "weight": 282,
@@ -351,6 +405,9 @@
     "pos": "G",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 4,
     "weight": 310,
@@ -370,6 +427,9 @@
     "pos": "TE",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 7,
     "weight": 265,
@@ -389,6 +449,9 @@
     "pos": "LS",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 260,
@@ -408,6 +471,9 @@
     "pos": "DE",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 5,
     "weight": 249,
@@ -427,6 +493,9 @@
     "pos": "K",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 4,
     "weight": 210,
@@ -446,6 +515,9 @@
     "pos": "TE",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 239,
@@ -465,6 +537,9 @@
     "pos": "DT",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 1,
     "weight": 303,
@@ -484,6 +559,9 @@
     "pos": "LB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 248,
@@ -503,6 +581,9 @@
     "pos": "QB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 2,
     "weight": 225,
@@ -520,8 +601,11 @@
     "last": "Jeanpierre",
     "first": "Lemuel",
     "pos": "C",
-    "status": "Active",
+    "status": "Cut",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 301,
@@ -539,8 +623,11 @@
     "last": "Johnson",
     "first": "Keelan",
     "pos": "CB",
-    "status": "Active",
+    "status": "Cut",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 5,
     "inches": 11,
     "weight": 209,
@@ -560,6 +647,9 @@
     "pos": "WR",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 1,
     "weight": 209,
@@ -579,6 +669,9 @@
     "pos": "DE",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 4,
     "weight": 281,
@@ -598,6 +691,9 @@
     "pos": "SS",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 0,
     "weight": 209,
@@ -615,8 +711,11 @@
     "last": "Lane",
     "first": "Jeremy",
     "pos": "CB",
-    "status": "Active/PUP",
+    "status": "Reserve/PUP",
     "extra": "(PUP)",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 0,
     "weight": 190,
@@ -636,6 +735,9 @@
     "pos": "C",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 1,
     "weight": 311,
@@ -655,6 +757,9 @@
     "pos": "WR",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 5,
     "inches": 10,
     "weight": 182,
@@ -674,6 +779,9 @@
     "pos": "WR",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 2,
     "weight": 211,
@@ -693,6 +801,9 @@
     "pos": "RB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 5,
     "inches": 1,
     "weight": 215,
@@ -712,6 +823,9 @@
     "pos": "DE",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 4,
     "weight": 254,
@@ -731,6 +845,9 @@
     "pos": "SS",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 1,
     "weight": 217,
@@ -750,6 +867,9 @@
     "pos": "WR",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 5,
     "weight": 218,
@@ -769,6 +889,9 @@
     "pos": "TE",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 5,
     "weight": 259,
@@ -788,6 +911,9 @@
     "pos": "DT",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 0,
     "weight": 299,
@@ -807,6 +933,9 @@
     "pos": "WR",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 200,
@@ -826,6 +955,9 @@
     "pos": "DT",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 1,
     "weight": 311,
@@ -845,6 +977,9 @@
     "pos": "RB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 5,
     "inches": 10,
     "weight": 221,
@@ -864,6 +999,9 @@
     "pos": "G",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 4,
     "weight": 324,
@@ -883,6 +1021,9 @@
     "pos": "LB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 226,
@@ -902,6 +1043,9 @@
     "pos": "FS",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 0,
     "weight": 214,
@@ -919,8 +1063,11 @@
     "last": "Nealy",
     "first": "Quayshawn",
     "pos": "LB",
-    "status": "Active",
+    "status": "Cut",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 0,
     "weight": 237,
@@ -938,8 +1085,9 @@
     "last": "Norwood",
     "first": "Kevin",
     "pos": "WR",
-    "status": "Active",
+    "status": "Traded",
     "extra": " ",
+    "destination": "Carolina",
     "feet": 6,
     "inches": 2,
     "weight": 199,
@@ -959,6 +1107,9 @@
     "pos": "C",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 292,
@@ -978,6 +1129,9 @@
     "pos": "T",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 5,
     "weight": 310,
@@ -997,6 +1151,9 @@
     "pos": "DE",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 300,
@@ -1016,6 +1173,9 @@
     "pos": "LB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 0,
     "weight": 236,
@@ -1035,6 +1195,9 @@
     "pos": "LB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 230,
@@ -1054,6 +1217,9 @@
     "pos": "T",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 5,
     "weight": 323,
@@ -1073,6 +1239,9 @@
     "pos": "RB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 5,
     "inches": 9,
     "weight": 215,
@@ -1090,8 +1259,11 @@
     "last": "Richardson",
     "first": "Paul",
     "pos": "WR",
-    "status": "Active/PUP",
-    "extra": " (PUP)",
+    "status": "Reserve/PUP",
+    "extra": "(PUP)",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 0,
     "weight": 183,
@@ -1111,6 +1283,9 @@
     "pos": "DE",
     "status": "Reserve/Injured",
     "extra": "(IR)",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 4,
     "weight": 255,
@@ -1130,6 +1305,9 @@
     "pos": "DT",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 2,
     "weight": 325,
@@ -1149,6 +1327,9 @@
     "pos": "P",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 0,
     "weight": 217,
@@ -1166,8 +1347,11 @@
     "last": "Scruggs",
     "first": "Greg",
     "pos": "DE",
-    "status": "Active",
+    "status": "Cut",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 310,
@@ -1187,6 +1371,9 @@
     "pos": "CB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 2,
     "weight": 206,
@@ -1206,6 +1393,9 @@
     "pos": "SS",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 2,
     "weight": 220,
@@ -1225,6 +1415,9 @@
     "pos": "CB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 195,
@@ -1244,6 +1437,9 @@
     "pos": "CB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 202,
@@ -1263,6 +1459,9 @@
     "pos": "LB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 2,
     "weight": 235,
@@ -1282,6 +1481,9 @@
     "pos": "CB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 0,
     "weight": 195,
@@ -1301,6 +1503,9 @@
     "pos": "RB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 226,
@@ -1318,8 +1523,11 @@
     "last": "Smith",
     "first": "D'Anthony",
     "pos": "DT",
-    "status": "Active",
+    "status": "Cut",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 2,
     "weight": 300,
@@ -1339,6 +1547,9 @@
     "pos": "WR",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 0,
     "weight": 218,
@@ -1358,6 +1569,9 @@
     "pos": "G",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 5,
     "weight": 302,
@@ -1377,6 +1591,9 @@
     "pos": "G",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 5,
     "weight": 298,
@@ -1396,6 +1613,9 @@
     "pos": "FS",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 5,
     "inches": 10,
     "weight": 197,
@@ -1415,6 +1635,9 @@
     "pos": "FS",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 5,
     "inches": 10,
     "weight": 202,
@@ -1434,6 +1657,9 @@
     "pos": "FB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 2,
     "weight": 280,
@@ -1453,6 +1679,9 @@
     "pos": "RB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 5,
     "inches": 10,
     "weight": 222,
@@ -1470,8 +1699,11 @@
     "last": "Wade",
     "first": "Triston",
     "pos": "CB",
-    "status": "Active",
+    "status": "Cut",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 5,
     "inches": 11,
     "weight": 185,
@@ -1491,6 +1723,9 @@
     "pos": "LB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 0,
     "weight": 241,
@@ -1510,6 +1745,9 @@
     "pos": "DE",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 2,
     "weight": 276,
@@ -1529,6 +1767,9 @@
     "pos": "DT",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 325,
@@ -1548,6 +1789,9 @@
     "pos": "CB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 1,
     "weight": 190,
@@ -1567,6 +1811,9 @@
     "pos": "WR",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 1,
     "weight": 219,
@@ -1586,6 +1833,9 @@
     "pos": "TE",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 5,
     "weight": 252,
@@ -1605,6 +1855,9 @@
     "pos": "QB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 5,
     "inches": 10,
     "weight": 206,
@@ -1624,6 +1877,9 @@
     "pos": "LB",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 4,
     "weight": 246,
@@ -1643,6 +1899,9 @@
     "pos": "SS",
     "status": "Reserve/Did Not Report",
     "extra": "(DNR)",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 3,
     "weight": 232,
@@ -1660,8 +1919,11 @@
     "last": "Zimmerman",
     "first": "Ty",
     "pos": "SS",
-    "status": "Active",
+    "status": "Cut",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 5,
     "inches": 11,
     "weight": 213,
@@ -1679,8 +1941,11 @@
     "last": "Greenberry",
     "first": "Deontay",
     "pos": "WR",
-    "status": "Active",
+    "status": "Cut",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 1,
     "weight": 211,
@@ -1698,8 +1963,11 @@
     "last": "Foxx",
     "first": "Deshon",
     "pos": "WR",
-    "status": "Active",
+    "status": "Cut",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 5,
     "inches": 10,
     "weight": 177,
@@ -1717,8 +1985,11 @@
     "last": "Farmer",
     "first": "George",
     "pos": "CB",
-    "status": "Active",
+    "status": "Cut",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 1,
     "weight": 213,
@@ -1738,6 +2009,9 @@
     "pos": "T",
     "status": "Active",
     "extra": " ",
+    "destination": {
+      "$t": ""
+    },
     "feet": 6,
     "inches": 5,
     "weight": 306,

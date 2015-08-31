@@ -63,6 +63,8 @@
                 <div class="icons">
                   <i class="fa fa-square unchecked"></i>
                   <i class="fa fa-check-square checked"></i>
+                  <i class="fa fa-times" ng-if="player.status == 'Cut'" title="Cut"></i>
+                  <i class="fa fa-bus" ng-if="player.status == 'Traded'" title="Traded"></i>
                 </div>
                 <div class="name">#{{player.no}} - {{player.last}} {{player.extra}}</div>
                 <div class="cap">${{player.cap | number}}</div>
@@ -78,7 +80,8 @@
                       <li> {{player.feet}}-foot-{{player.inches}}, {{player.weight}} lbs
                       <li> Experience: {{player.exp ? player.exp + " seasons" : "Rookie"}}
                       <li> Attended {{player.college}}
-                      <li ng-if="player.status != 'Active'"> Status: {{player.status}} </li>
+                      <li ng-if="player.status != 'Active' && player.status != 'Traded'"> Status: {{player.status}} </li>
+                      <li ng-if="player.status == 'Traded'"> Status: traded to {{player.destination}}</li>
                       <li ng-if="player.bonus"> Already committed: ${{player.bonus | number }} </li>
                     </ul>
                   </div>

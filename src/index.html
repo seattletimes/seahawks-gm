@@ -61,8 +61,10 @@
                 }"
               >
                 <div class="icons">
-                  <i class="fa fa-square unchecked"></i>
-                  <i class="fa fa-check-square checked"></i>
+                  <span class="selectors" ng-if="player.status != 'Cut' && player.status != 'Traded'">
+                    <i class="fa fa-square unchecked"></i>
+                    <i class="fa fa-check-square checked"></i>
+                  </span>
                   <i class="fa fa-times" ng-if="player.status == 'Cut'" title="Cut"></i>
                   <i class="fa fa-bus" ng-if="player.status == 'Traded'" title="Traded"></i>
                 </div>
